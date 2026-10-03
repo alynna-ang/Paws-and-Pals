@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Request dog walking, pet sitting, or overnight pet care from Paws & Pals.">
+<title>Book a Service | Paws & Pals Pet Care</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Paws and Pals Pet Care home">
+      <img src="logo.svg" alt="Paws and Pals paw logo">
+      <span class="brand-text"><strong>Paws &amp; Pals</strong><span>Pet Care</span></span>
+    </a>
+    <button class="menu-button" id="menu-button" type="button" aria-controls="site-nav" aria-expanded="false">
+      <span aria-hidden="true">☰</span><span class="sr-only">Open menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="why-us.html">Why Us</a>
+      <a href="reviews.html">Reviews</a>
+      <a class="nav-cta" href="booking.html">Book a Service</a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+<section class="page-hero"><div class="container"><p class="kicker">BOOK A SERVICE</p><h1>Let's plan your pet's care.</h1><p>Tell us a little about your pet and the care you need.</p></div></section>
+<section class="section"><div class="container form"><form action="mailto:hello@pawsandpalspetcare.example" method="post" enctype="text/plain">
+<div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" required></div>
+<div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" required></div>
+<div class="form-field"><label for="service">Service</label><select id="service" name="service" required><option value="">Choose a service</option><option>Dog Walking</option><option>Pet Sitting</option><option>Overnight Care</option></select></div>
+<div class="form-field"><label for="date">Preferred date</label><input id="date" name="date" type="date" required></div>
+<div class="form-field"><label for="details">Tell us about your pet</label><textarea id="details" name="details" placeholder="Pet type, routine, special instructions, and anything else we should know."></textarea></div>
+<button class="button button-primary form-submit" type="submit">Send Request</button>
+</form><div class="notice"><strong>Class project:</strong> This form is a prototype and is not connected to a real booking system.</div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div><strong>Paws &amp; Pals Pet Care</strong><p>Personalized care for your furry family members.</p></div>
+    <p>&copy; 2026 Paws &amp; Pals Pet Care</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
